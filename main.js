@@ -4,9 +4,6 @@ import MarkdownIt from 'markdown-it';
 import { maybeShowApiKeyBanner } from './gemini-api-banner';
 import './style.css';
 
-// 🔥 FILL THIS OUT FIRST! 🔥
-// 🔥 GET YOUR GEMINI API KEY AT 🔥
-// 🔥 https://makersuite.google.com/app/apikey 🔥
 let API_KEY = 'AIzaSyAyGwtvwDPwaFDwlVKEOXjPlH4DFktzF3Q';
 
 let form = document.querySelector('form');
